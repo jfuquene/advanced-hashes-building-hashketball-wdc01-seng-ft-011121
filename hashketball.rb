@@ -1,8 +1,8 @@
 def game_hash 
   game_hash = { 
     :home => {
-      :team_name => "Brooklyn Nets"
-      :colors => ["Blacks", "White"]
+      :team_name => "Brooklyn Nets",
+      :colors => ["Blacks", "White"],
       :players => [
         {
         :players_name => "Alan Anderson",
@@ -27,6 +27,7 @@ def game_hash
         :blocks => 12,
         :slam_dunks => 7
       }, 
+      
       { 
         :players_name => "Brook Lopez",
         :number => 11, 
@@ -38,6 +39,7 @@ def game_hash
         :blocks => 1,
         :slam_dunks => 15
       }, 
+      
       { 
         :players_name => "Mason Plumlee",
         :number => 1, 
@@ -48,7 +50,8 @@ def game_hash
         :steals => 3,
         :blocks => 8,
         :slam_dunks => 5
-      }
+      }, 
+      
       {
         :players_name => "Jason Terry",
         :number => 31, 
@@ -59,11 +62,12 @@ def game_hash
         :steals => 4,
         :blocks => 11,
         :slam_dunks => 1
-      ]
-    }
+      }
+     ]
+    },
     :away => {
-      :team_name => "Charlotte Hornets"
-      :colors => ["Turquoise", "Purple "]
+      :team_name => "Charlotte Hornets",
+      :colors => ["Turquoise", "Purple "],
       :players => [
         {
         :players_name => "Jeff Adrien",
@@ -88,8 +92,9 @@ def game_hash
         :blocks => 15,
         :slam_dunks => 10
         
-      }, 
-      { 
+     }, 
+     
+     { 
         :players_name => "DeSagna Diop",
         :number => 2, 
         :shoe => 14, 
@@ -99,4 +104,30 @@ def game_hash
         :steals => 4,
         :blocks => 5,
         :slam_dunks => 5
-        }
+      }, 
+      
+      {
+        :players_name => "Ben Gordon",
+        :number => 8, 
+        :shoe => 15, 
+        :points => 33,
+        :rebounds => 3, 
+        :assist => 2,
+        :steals => 1,
+        :blocks => 1,
+        :slam_dunks => 0
+      }, 
+      
+      {
+        :players_name => "Kemba Walker",
+        :number => 33, 
+        :shoe => 15, 
+        :points => 6,
+        :rebounds => 12, 
+        :assist => 12,
+        :steals => 7,
+        :blocks => 5,
+        :slam_dunks => 12
+      }
+        
+    
