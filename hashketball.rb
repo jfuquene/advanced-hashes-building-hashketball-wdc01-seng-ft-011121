@@ -5,7 +5,7 @@ def game_hash
       :colors => ["Blacks", "White"],
       :players => [
         {
-        :players_name => "Alan Anderson",
+        :player_name => "Alan Anderson",
         :number => 0, 
         :shoe => 16, 
         :points => 22,
@@ -17,7 +17,7 @@ def game_hash
       }, 
       
       {
-        :players_name => "Reggie Evans",
+        :player_name => "Reggie Evans",
         :number => 30, 
         :shoe => 14, 
         :points => 12,
@@ -29,7 +29,7 @@ def game_hash
       }, 
       
       { 
-        :players_name => "Brook Lopez",
+        :player_name => "Brook Lopez",
         :number => 11, 
         :shoe => 17, 
         :points => 17,
@@ -41,7 +41,7 @@ def game_hash
       }, 
       
       { 
-        :players_name => "Mason Plumlee",
+        :player_name => "Mason Plumlee",
         :number => 1, 
         :shoe => 19, 
         :points => 26,
@@ -53,7 +53,7 @@ def game_hash
       }, 
       
       {
-        :players_name => "Jason Terry",
+        :player_name => "Jason Terry",
         :number => 31, 
         :shoe => 15, 
         :points => 19,
@@ -67,10 +67,10 @@ def game_hash
     },
     :away => {
       :team_name => "Charlotte Hornets",
-      :colors => ["Turquoise", "Purple "],
+      :colors => ["Turquoise", "Purple"],
       :players => [
         {
-        :players_name => "Jeff Adrien",
+        :player_name => "Jeff Adrien",
         :number => 4, 
         :shoe => 18, 
         :points => 10,
@@ -82,7 +82,7 @@ def game_hash
       }, 
       
       {
-        :players_name => "Bismack Biyombo",
+        :player_name => "Bismack Biyombo",
         :number => 0, 
         :shoe => 16, 
         :points => 12,
@@ -95,7 +95,7 @@ def game_hash
      }, 
      
      { 
-        :players_name => "DeSagna Diop",
+        :player_name => "DeSagna Diop",
         :number => 2, 
         :shoe => 14, 
         :points => 24,
@@ -107,7 +107,7 @@ def game_hash
       }, 
       
       {
-        :players_name => "Ben Gordon",
+        :player_name => "Ben Gordon",
         :number => 8, 
         :shoe => 15, 
         :points => 33,
@@ -119,7 +119,7 @@ def game_hash
       }, 
       
       {
-        :players_name => "Kemba Walker",
+        :player_name => "Kemba Walker",
         :number => 33, 
         :shoe => 15, 
         :points => 6,
